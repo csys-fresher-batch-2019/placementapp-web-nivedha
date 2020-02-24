@@ -32,10 +32,5 @@ public class AllInterviewStatusServ extends HttpServlet {
 			RequestDispatcher dispatcher = request.getRequestDispatcher("AllInterviewStatus.jsp");
 			dispatcher.forward(request, response);
 	       
-	
 	}
-
-	
-	
-
 }

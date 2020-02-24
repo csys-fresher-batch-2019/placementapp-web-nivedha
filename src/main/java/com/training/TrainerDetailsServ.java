@@ -19,23 +19,20 @@ import com.trainingproject.model.Trainer;
 
 public class TrainerDetailsServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-   
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		TrainerDAOImpl impl=new TrainerDAOImpl();
-		Trainer t=new Trainer();
-        List<Trainer> list=new ArrayList<Trainer>();
-        TrainerDAOImpl impl1=new TrainerDAOImpl();
-        try {
-			list=impl1.listTrainerDetails();
-		} catch (DbException e) {
 
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		TrainerDAOImpl impl = new TrainerDAOImpl();
+		Trainer t = new Trainer();
+		List<Trainer> list = new ArrayList<Trainer>();
+		TrainerDAOImpl impl1 = new TrainerDAOImpl();
+		try {
+			list = impl1.listTrainerDetails();
+		} catch (DbException e) {
 			e.printStackTrace();
 		}
-		
-        request.setAttribute("Trainer_Details", list);
+		request.setAttribute("Trainer_Details", list);
 		RequestDispatcher dispatcher = request.getRequestDispatcher("TrainerDetails.jsp");
 		dispatcher.forward(request, response);
-		
 	}
-
 }

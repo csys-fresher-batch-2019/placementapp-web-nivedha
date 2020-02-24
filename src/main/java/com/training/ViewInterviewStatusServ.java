@@ -19,43 +19,31 @@ import com.trainingproject.model.JoinUserCompany;
 
 @WebServlet("/ViewInterviewStatusServ")
 
-
 public class ViewInterviewStatusServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-   
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		PrintWriter out=response.getWriter();
-		JoinDAOImpl impl=new JoinDAOImpl();
-		JoinUserCompany c=new JoinUserCompany();
-		
-        HttpSession sess=request.getSession(false);
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		PrintWriter out = response.getWriter();
+		JoinDAOImpl impl = new JoinDAOImpl();
+		JoinUserCompany c = new JoinUserCompany();
+		HttpSession sess = request.getSession(false);
 		String userIdStr = (String) sess.getAttribute("userid");
-		
-		
-		if(userIdStr == null)
-		{
+		if (userIdStr == null) {
 			out.print(userIdStr);
 			response.sendRedirect("Login.jsp");
-			
-			
+		} else {
+			Integer userId = Integer.parseInt(userIdStr);
+			List<JoinUserCompany> list = new ArrayList<JoinUserCompany>();
+			c.setUserId(userId);
+			try {
+				list = impl.getStatusByUserId(c);
+				request.setAttribute("Interview_Status", list);
+				RequestDispatcher dispatcher = request.getRequestDispatcher("InterviewStatus.jsp");
+				dispatcher.forward(request, response);
+			} catch (DbException e) {
+				e.printStackTrace();
+			}
 		}
-		else
-		{
-			Integer userId=Integer.parseInt(userIdStr);
-		List<JoinUserCompany> list=new ArrayList<JoinUserCompany>();
-	    c.setUserId(userId);
-	    		try {
-			list=impl.getStatusByUserId(c);
-			request.setAttribute("Interview_Status", list);
-			RequestDispatcher dispatcher = request.getRequestDispatcher("InterviewStatus.jsp");
-			dispatcher.forward(request, response);
-			
-			
-		} catch (DbException e) {
-
-			e.printStackTrace();
-		}
-						}
 	}
-
 }

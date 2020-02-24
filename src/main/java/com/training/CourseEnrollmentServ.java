@@ -1,6 +1,7 @@
 package com.training;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,13 +17,13 @@ import com.trainingproject.model.UserCourse;
 
 public class CourseEnrollmentServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-   
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	
-		HttpSession ses=request.getSession(false);
-		UserCourseDAOImpl impl1=new UserCourseDAOImpl();
-		UserCourse course=(UserCourse) ses.getAttribute("userCourse");
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		HttpSession ses = request.getSession(false);
+		UserCourseDAOImpl impl1 = new UserCourseDAOImpl();
+		UserCourse course = (UserCourse) ses.getAttribute("userCourse");
 		try {
 			impl1.addCourseDurationDate(course);
 			response.sendRedirect("UserCourseServ");
@@ -30,9 +31,5 @@ public class CourseEnrollmentServ extends HttpServlet {
 			e.printStackTrace();
 		}
 		System.out.println("Enrolled Successfully");
-		
-		}
-
-	
-
+	}
 }

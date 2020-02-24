@@ -19,15 +19,15 @@ import com.trainingproject.model.InterviewSchedule;
 
 public class InterviewScheduleServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-   
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		InterviewScheduleDAOImpl impl=new InterviewScheduleDAOImpl();
-		InterviewSchedule inter=new InterviewSchedule();
-		List<InterviewSchedule> list=new ArrayList<InterviewSchedule>();
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		InterviewScheduleDAOImpl impl = new InterviewScheduleDAOImpl();
+		InterviewSchedule inter = new InterviewSchedule();
+		List<InterviewSchedule> list = new ArrayList<InterviewSchedule>();
 		try {
-			list=impl.allInterviewSchedules();
+			list = impl.allInterviewSchedules();
 		} catch (DbException e) {
 
 			e.printStackTrace();
@@ -35,7 +35,5 @@ public class InterviewScheduleServ extends HttpServlet {
 		request.setAttribute("interview_schedule", list);
 		RequestDispatcher dispatcher = request.getRequestDispatcher("InterviewSchedule.jsp");
 		dispatcher.forward(request, response);
-		
 	}
-
 }

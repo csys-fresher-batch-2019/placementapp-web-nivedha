@@ -19,17 +19,17 @@ import com.trainingproject.model.JoinUserCompany;
 
 public class SearchByStatusServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-  
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		JoinDAOImpl impl=new JoinDAOImpl();
-		List<JoinUserCompany> list=new ArrayList<JoinUserCompany>();
-		JoinUserCompany c=new JoinUserCompany();
-	    c.setInterStatus(request.getParameter("status"));
-	    list.add(c);
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		JoinDAOImpl impl = new JoinDAOImpl();
+		List<JoinUserCompany> list = new ArrayList<JoinUserCompany>();
+		JoinUserCompany c = new JoinUserCompany();
+		c.setInterStatus(request.getParameter("status"));
+		list.add(c);
 		try {
-			list=impl.getUserCompanyDetails(c);
+			list = impl.getUserCompanyDetails(c);
 		} catch (DbException e) {
 			e.printStackTrace();
 		}
@@ -37,8 +37,5 @@ public class SearchByStatusServ extends HttpServlet {
 		RequestDispatcher dispatcher = request.getRequestDispatcher("ViewSearchStatus.jsp");
 		dispatcher.forward(request, response);
 		response.sendRedirect("ViewSearchStatus.jsp");
-
-	
 	}
-
 }

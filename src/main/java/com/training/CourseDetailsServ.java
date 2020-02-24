@@ -20,32 +20,25 @@ import com.trainingproject.model.Course;
 
 public class CourseDetailsServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-   
-	private static final Logger log=Logger.getInstance();
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		List<Course> list=new ArrayList<Course>();
-		 PrintWriter out=response.getWriter();
+	private static final Logger log = Logger.getInstance();
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		List<Course> list = new ArrayList<Course>();
+		PrintWriter out = response.getWriter();
 		String courseName = request.getParameter("courseName");
-		CourseDAOImpl obj=new CourseDAOImpl();
+		CourseDAOImpl obj = new CourseDAOImpl();
 		try {
-			list= obj.allCourseDetails(courseName);
+			list = obj.allCourseDetails(courseName);
 			log.getInput(list);
 			out.println(list);
 			request.setAttribute("COURSE_LIST", list);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			log.error(e);
 		}
-		
 		RequestDispatcher dispatcher = request.getRequestDispatcher("CourseDetails.jsp");
 		dispatcher.forward(request, response);
-		
-	
-	
 	}
-
-	
-
 }
