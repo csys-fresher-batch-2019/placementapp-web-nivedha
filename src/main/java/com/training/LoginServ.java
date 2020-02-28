@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 import com.trainingproject.dao.impl.LoginDAOImpl;
 import com.trainingproject.logger.Logger;
 
-@WebServlet("/LoginServ")
+//@WebServlet("/LoginServ")
 
 public class LoginServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;

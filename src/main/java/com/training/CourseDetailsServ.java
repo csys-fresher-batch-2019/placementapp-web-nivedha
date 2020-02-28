@@ -16,7 +16,7 @@ import com.trainingproject.dao.impl.CourseDAOImpl;
 import com.trainingproject.logger.Logger;
 import com.trainingproject.model.Course;
 
-@WebServlet("/CourseDetailsServ")
+//@WebServlet("/CourseDetailsServ")
 
 public class CourseDetailsServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;

@@ -15,7 +15,7 @@ import com.trainingproject.DbException;
 import com.trainingproject.dao.impl.ClientCompanyDAOImpl;
 import com.trainingproject.model.ClientCompany;
 
-@WebServlet("/CompanyDetailsServ")
+//@WebServlet("/CompanyDetailsServ")
 
 public class CompanyDetailsServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;

@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.trainingproject.dao.impl.GradeDAOImpl;
 import com.trainingproject.model.Grade;
 
-@WebServlet("/ChangeGradeServ")
+//@WebServlet("/ChangeGradeServ")
 
 public class ChangeGradeServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;

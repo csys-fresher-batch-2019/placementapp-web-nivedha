@@ -49,6 +49,9 @@ List<Grade> list=(List <Grade>)request.getAttribute("view_grade");
 <a href="ChangeGrade.jsp">
 <p style="color:white; font-size:20px; font-family:courier;text-align:center;"><button type="submit" >CHANGE MARKS</button><br></br>
 </a>
+<a href="Admin.jsp">
+<p style="color:white; font-size:20px; font-family:courier;text-align:center;"><button type="submit" >HOME</button><br></br>
+</a>
 
 </body>
 </html>

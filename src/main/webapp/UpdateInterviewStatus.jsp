@@ -16,12 +16,13 @@ body {
 </style>
 <body>
 <form action="UpdateInterviewStatusServ">
+<% String interviewid=request.getParameter("interviewid");%>
 <pre>
 <br></br>
 <h1 style="color:white; font-size:30px; font-family:courier; text-align:centre;">                                INTERVIEW STATUS</h1>
 </pre><pre>
 <div style="text-align:center">
-<p style="color:white; font-size:20px; font-family:courier;text-align:center;">   INTERVIEW ID    <input type="number" name="interviewid"/>
+<p style="color:white; font-size:20px; font-family:courier;text-align:center;">   INTERVIEW ID    <input type="number" name="interviewid" value="<%=interviewid%>" readonly required/>
 <p style="color:white; font-size:20px; font-family:courier;text-align:center;">INTERVIEW MARKS    <input type="number" name="marks" placeholder="Enter marks 0-100"/>
 </p>
 <p style="color:white; font-size:20px; font-family:courier;text-align:center;"><button type="submit" >UPDATE</button>

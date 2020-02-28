@@ -57,6 +57,6 @@ List<JoinUserCompany> list=(List<JoinUserCompany>)request.getAttribute("view_sta
 <%} %>
 </table>
 <br/>
-<a href="index.jsp"><button type="submit">HOME</button></a>
+<a href="Index.jsp"><button type="submit">HOME</button></a>
 </body>
 </html>

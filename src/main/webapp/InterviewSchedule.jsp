@@ -3,7 +3,7 @@
      <%@ page import="com.trainingproject.dao.impl.InterviewScheduleDAOImpl" %>
         <%@ page import="com.trainingproject.model.InterviewSchedule" %>
             <%@ page import="java.util.List" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -44,13 +44,15 @@ List<InterviewSchedule> list=(List <InterviewSchedule>)request.getAttribute("int
 <td><h1 style="color:white; font-size:20px; font-family:courier; text-align:centre;"><%=i.getJobRequirement()%></h1></td>
 <td><h1 style="color:white; font-size:20px; font-family:courier; text-align:centre;"><%=i.getInterviewDate()%></h1></td>
 <td><h1 style="color:white; font-size:20px; font-family:courier; text-align:centre;"><%=i.getInterviewTime()%></h1></td>
-<td><a href="AttendInterviewServ" button type="submit"><h1 style="color:red; font-size:20px; font-family:courier; text-align:centre;">ATTEND</a></td>
+<td><a href="AttendInterviewServ?Client_id=<%=i.getClientId()%>">
+<h1 style="color:red; font-size:20px; font-family:courier; text-align:centre;">ATTEND</a>
 
+</td>
 </tr>
-<%HttpSession ses=request.getSession();
-ses.setAttribute("Client_id",i.getClientId());%>
 <%} %>
-
 </table>
+<br/>
+<h1 style="color:white; font-size:30px; font-family:courier; text-align:centre;">
+<a href="Index.jsp">Home</a></h1>
 </body>
 </html>

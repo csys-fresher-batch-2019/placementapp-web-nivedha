@@ -9,21 +9,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="scss/main.css">
     <link rel="stylesheet" href="scss/skin.css">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="./script/index.js"></script>
 </head>
 
 <body id="wrapper">
-
     <section id="top-header">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 col-sm-7 col-xs-7 top-header-links">
                     <ul class="contact_links">
                         <li><i class="fa fa-phone"></i><a href="#">+91 847 594 5080</a></li>
-                        <li><i class="fa fa-envelope"></i><a href="#">sales@passionsoftware.in</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="#">passionsoftware.in</a></li>
                     </ul>
                 </div>
                 <div class="col-md-5 col-sm-5 col-xs-5 social">
@@ -143,7 +141,8 @@
                     <div class="col-md-2 col-xs-2"><i class="fa fa-laptop feature_icon"></i></div>
                     <div class="col-md-10 col-xs-10">
                         <h4>100% Responsive</h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum.</p>
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
+                        
                         <a href="#" class="readmore">Read More <i class="fa fa-caret-right"></i></a>
                     </div>
                 </div>
@@ -151,7 +150,7 @@
                     <div class="col-md-2 col-xs-2"><i class="fa fa-bullhorn feature_icon"></i></div>
                     <div class="col-md-10 col-xs-10">
                         <h4>Powerful Features</h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum.</p>
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
                         <a href="#" class="readmore">Read More <i class="fa fa-caret-right"></i></a>
                     </div>
                 </div>
@@ -159,7 +158,7 @@
                     <div class="col-md-2 col-xs-2"><i class="fa fa-support feature_icon"></i></div>
                     <div class="col-md-10 col-xs-10">
                         <h4>Customer Support</h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum.</p>
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
                         <a href="#" class="readmore">Read More <i class="fa fa-caret-right"></i></a>
                     </div>
                 </div>
@@ -181,17 +180,11 @@
                 <div class="text-block">
                     <div class="section-heading">
                         <h1>ABOUT <span>US</span></h1>
-                        <p class="subheading">Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut.</p>
+                        <p class="subheading">Real Life Examples and Live Project Along with Practical Session</p>
+
                     </div>
 
-                    <ul class="aboutul">
-                        <li> <i class="fa fa-check"></i>Vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum.</li>
-                        <li> <i class="fa fa-check"></i>legimus copiosae instructior ei ut vix denique fierentis atqui mucius consequat ad pro.</li>
-                        <li> <i class="fa fa-check"></i>Ea saperet inimicu ut qui dolor oratio maiestatis ubique mnesarchum.</li>
-                        <li> <i class="fa fa-check"></i>Sanctus voluptatibus et per illum noluisse facilisis quo atqui mucius ad pro.</li>
-                        <li> <i class="fa fa-check"></i>At illum noluisse facilisis quo te dictas epicurei suavitate qui his ad.</li>
-                        <li> <i class="fa fa-check"></i>Tantas propriae mediocritatem id vix qui everti efficiantur an ocurreret consetetur.</li>
-                    </ul>
+                   
 
                     <button type="button" class="btn btn-primary slide">Learn More  <i class="fa fa-caret-right"></i> </button>
 
@@ -207,7 +200,8 @@
             <div class="section-heading text-center">
                 <div class="col-md-12 col-xs-12">
                     <h1>What <span>We Do</span></h1>
-                    <p class="subheading">Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum ea utamur impetus fuisset nam nostrud euismod volumus ne mei.</p>
+                    <p class="subheading">Real Life Examples and Live Project Along with Practical Session</p>
+
                 </div>
             </div>
 
@@ -221,7 +215,7 @@
 
                     <div class="process-text-block">
                         <h4><a href="#">Idea</a></h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 block process-block">
@@ -233,7 +227,7 @@
 
                     <div class="process-text-block">
                         <h4><a href="#">Concept</a></h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 block process-block">
@@ -245,7 +239,7 @@
 
                     <div class="process-text-block">
                         <h4><a href="#">Design</a></h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 block process-block lastchild">
@@ -257,7 +251,7 @@
 
                     <div class="process-text-block">
                         <h4><a href="#">Develop</a></h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
                     </div>
                 </div>
             </div>
@@ -271,20 +265,21 @@
             <div class="section-heading text-center">
                 <div class="col-md-12 col-xs-12">
                     <h1>What Our <span>Client Says</span></h1>
-                    <p class="subheading">Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum ea utamur impetus fuisset nam nostrud euismod volumus ne mei.</p>
+                    <p class="subheading">Real Life Examples and Live Project Along with Practical Session</p>
+
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-4 col-sm-12 block ">
                     <div class="testimonial_box">
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum ea utamur impetus fuisset. </p>
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
                     </div>
                     <div class="arrow-down"></div>
                     <div class="testimonial_user">
                         <div class="user-image"><img src="img/user1.png" alt="user" class="img-responsive" /></div>
                         <div class="user-info">
-                            <h5>Lorem Ipsum</h5>
+                           
                             <p>Manager</p>
                         </div>
                     </div>
@@ -293,13 +288,12 @@
 
                 <div class="col-md-4 col-sm-12 block">
                     <div class="testimonial_box">
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum ea utamur impetus fuisset. </p>
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
                     </div>
                     <div class="arrow-down"></div>
                     <div class="testimonial_user">
                         <div class="user-image"><img src="img/user1.png" alt="user" class="img-responsive" /></div>
                         <div class="user-info">
-                            <h5>Lorem Ipsum</h5>
                             <p>Manager</p>
                         </div>
                     </div>
@@ -307,13 +301,12 @@
 
                 <div class="col-md-4 col-sm-12 block">
                     <div class="testimonial_box">
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum ea utamur impetus fuisset. </p>
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
                     </div>
                     <div class="arrow-down"></div>
                     <div class="testimonial_user">
                         <div class="user-image"><img src="img/user1.png" alt="user" class="img-responsive" /></div>
                         <div class="user-info">
-                            <h5>Lorem Ipsum</h5>
                             <p>Manager</p>
                         </div>
                     </div>
@@ -336,7 +329,7 @@
                     <div class="footer-block">
                         <h4>Address</h4>
                         <hr/>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum.
+                                            <p>Real Life Examples and Live Project Along with Practical Session</p>
                         </p>
                         <a href="#" class="learnmore">Learn More <i class="fa fa-caret-right"></i></a>
                     </div>
@@ -347,27 +340,17 @@
                         <h4>Useful Links</h4>
                         <hr/>
                         <ul class="footer-links">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Sign In</a></li>
-                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">COURSE</a></li>
+                            <li><a href="#">CAREER</a></li>
+                            <li><a href="#">TRAINER</a></li>
+                            <li><a href="#">SIGN IN</a></li>
+                            <li><a href="#">SIGN UP</a></li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-3 col-xs-12 block">
-                    <div class="footer-block">
-                        <h4>Community</h4>
-                        <hr/>
-                        <ul class="footer-links">
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Free Goods</a></li>
-                        </ul>
-                    </div>
-                </div>
+                
 
                 <div class="col-md-3 col-sm-3 col-xs-12 <block></block>">
                     <div class="footer-block">
@@ -375,16 +358,18 @@
                         <hr/>
                         <ul class="footer-links">
                             <li>
-                                <a href="#" class="post">Lorem ipsum dolor sit amet</a>
-                                <p class="post-date">May 25, 2017</p>
+                                <a href="#" class="post">Real Life Examples and Live Project Along with Practical Session</a>
+                                <p class="post-date">Feb 25, 2020</p>
                             </li>
                             <li>
-                                <a href="#" class="post">Lorem ipsum dolor sit amet</a>
-                                <p class="post-date">May 25, 2017</p>
+                                <a href="#" class="post">Real Life Examples and Live Project Along with Practical Session
+                                </a>
+                                <p class="post-date">Feb 25, 2020</p>
                             </li>
                             <li>
-                                <a href="#" class="post">Lorem ipsum dolor sit amet</a>
-                                <p class="post-date">May 25, 2017</p>
+                                <a href="#" class="post">Real Life Examples and Live Project Along with Practical Session</p>
+</a>
+                                <p class="post-date">Feb 25, 2020</p>
                             </li>
 
                         </ul>
@@ -404,7 +389,7 @@
                     <a href="#">Terms of Use</a>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12 copyright">
-                    Developed by <a href="#">Aspire Software Solutions</a> designed by <a href="#">Designing Team</a>
+                    Developed by <a href="#">Passion Software Solutions</a> designed by <a href="#">Designing Team</a>
                 </div>
             </div>
         </div>

@@ -52,11 +52,15 @@ List<InterviewPerformance> list=(List <InterviewPerformance>)request.getAttribut
 <td><h1 style="color:white; font-size:20px; font-family:courier; text-align:centre;"><%=i.getUserId()%></h1></td>
 <td><h1 style="color:white; font-size:20px; font-family:courier; text-align:centre;"><%=i.getMarks()%></h1></td>
 <td><h1 style="color:white; font-size:20px; font-family:courier; text-align:centre;"><%=i.getInterStatus()%></h1>
+<td><a href="UpdateInterviewStatus.jsp?interviewid=<%=i.getPerformId()%>">
+<h1 style="color:red; font-size:20px; font-family:courier; text-align:centre;">UPDATE</a>
 </tr>
+<% HttpSession ses=request.getSession();
+ses.setAttribute("interviewid", i.getPerformId());
+%>
 <%} %>
 </table>
-<br></br>
-<a href="index.jsp"><button type="submit">HOME</button></a>
-
+<h1 style="color:white; font-size:30px; font-family:courier; text-align:centre;">
+<a href="Admin.jsp">Home</a></h1>
 </body>
 </html>

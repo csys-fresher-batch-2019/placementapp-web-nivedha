@@ -19,7 +19,6 @@ body {
 </style>
 <body>
 
-<form action="ViewInterviewStatusServ">
 <%
 JoinDAOImpl impl=new JoinDAOImpl();
 List<JoinUserCompany> list=(List<JoinUserCompany>)request.getAttribute("Interview_Status");
@@ -49,6 +48,8 @@ List<JoinUserCompany> list=(List<JoinUserCompany>)request.getAttribute("Intervie
 </tr>
 <%} %>
 </table>
-</form>
+<br/>
+<h1 style="color:white; font-size:30px; font-family:courier; text-align:centre;">
+<a href="Index.jsp">Home</a></h1>
 </body>
 </html>

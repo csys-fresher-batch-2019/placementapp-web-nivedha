@@ -35,14 +35,12 @@ body {
       </li>
        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">INTERVIEW STATUS <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="UpdateInterviewStatus.jsp">UPDATE MARKS</a></li>
           <li><a href="AllInterviewStatusServ">VIEW STATUS</a></li>
         </ul>
       </li>
        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">GRADE <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="ViewGradeServ">VIEW GRADE</a></li>
-          <li><a href="ChangeGrade.jsp">UPDATE GRADE</a></li>
         </ul>
       </li>
       

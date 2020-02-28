@@ -13,7 +13,7 @@ import com.trainingproject.dao.impl.GradeDAOImpl;
 import com.trainingproject.dao.impl.InterviewPerformanceDAOImpl;
 import com.trainingproject.model.InterviewPerformance;
 
-@WebServlet("/UpdateInterviewStatusServ")
+//@WebServlet("/UpdateInterviewStatusServ")
 
 public class UpdateInterviewStatusServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;

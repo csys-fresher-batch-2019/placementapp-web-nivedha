@@ -17,7 +17,7 @@ import com.trainingproject.DbException;
 import com.trainingproject.dao.impl.JoinDAOImpl;
 import com.trainingproject.model.JoinUserCompany;
 
-@WebServlet("/ViewInterviewStatusServ")
+//@WebServlet("/ViewInterviewStatusServ")
 
 public class ViewInterviewStatusServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;

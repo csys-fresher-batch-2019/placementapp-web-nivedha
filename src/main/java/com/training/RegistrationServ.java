@@ -14,7 +14,7 @@ import com.trainingproject.dao.impl.RegistrationDAOImpl;
 import com.trainingproject.logger.Logger;
 import com.trainingproject.model.Registration;
 
-@WebServlet("/RegistrationServ")
+//@WebServlet("/RegistrationServ")
 public class RegistrationServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

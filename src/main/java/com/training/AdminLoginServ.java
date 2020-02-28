@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.trainingproject.DbException;
 import com.trainingproject.dao.impl.AdminLoginDAOImpl;
 
-@WebServlet("/AdminLoginServ")
+//@WebServlet("/AdminLoginServ")
 public class AdminLoginServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

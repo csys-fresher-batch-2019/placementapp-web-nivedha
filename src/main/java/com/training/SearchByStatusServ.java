@@ -15,7 +15,7 @@ import com.trainingproject.DbException;
 import com.trainingproject.dao.impl.JoinDAOImpl;
 import com.trainingproject.model.JoinUserCompany;
 
-@WebServlet("/SearchByStatusServ")
+//@WebServlet("/SearchByStatusServ")
 
 public class SearchByStatusServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;

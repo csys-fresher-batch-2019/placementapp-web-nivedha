@@ -15,7 +15,7 @@ import com.trainingproject.DbException;
 import com.trainingproject.dao.impl.InterviewPerformanceDAOImpl;
 import com.trainingproject.model.InterviewPerformance;
 
-@WebServlet("/AllInterviewStatusServ")
+//@WebServlet("/AllInterviewStatusServ")
 public class AllInterviewStatusServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -29,7 +29,7 @@ public class AllInterviewStatusServ extends HttpServlet {
 				e.printStackTrace();
 			}
 	    	request.setAttribute("interviewstatus", list);
-			RequestDispatcher dispatcher = request.getRequestDispatcher("AllInterviewStatus.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("UserInterviewStatus.jsp");
 			dispatcher.forward(request, response);
 	       
 	}
